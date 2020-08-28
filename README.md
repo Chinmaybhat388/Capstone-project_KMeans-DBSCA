@@ -16,5 +16,8 @@ trying to identify the right locations in the state of New York for establishing
 - The primary source of community college data was web scraped from the site community college review.
 - We will be using the ‘Location’ feature from this data to obtain geo coordinates of each college from geopy library.
 - We will then use Foursquare API to get hotspots around a college where students are most likely to hang out. 
+
+## Modelling
+- We will be using kMeans and DBSCAN to determine the optimal locations to set up student hostels.
   
 
